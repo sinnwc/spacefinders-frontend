@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
+import HelloWorld from '@/components/HelloWorld.vue'
 import settings from '@/components/settings'
 import map from '@/components/map'
 import updates from '@/components/updates'
@@ -10,7 +10,7 @@ const routes = [
   {
     path: '/',
     name: 'Home',
-    component: Home
+    component: HelloWorld
   },
   {
     path: '/settings',

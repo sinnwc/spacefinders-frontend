@@ -42,9 +42,9 @@
     </v-main>
     <v-bottom-navigation
       grow>
-      <v-btn to="Home">
+      <v-btn to="/">
         <span>Dashboard</span>
-        <v-icon>mdi-heart</v-icon>
+        <v-icon>mdi-view-dashboard-outline</v-icon>
       </v-btn>
       <v-btn to="map">
         <span>Map</span>
