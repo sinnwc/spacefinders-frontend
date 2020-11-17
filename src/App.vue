@@ -40,6 +40,25 @@
     <v-main>
       <HelloWorld/>
     </v-main>
+    <v-bottom-navigation
+      grow>
+      <v-btn>
+        <span>Dashboard</span>
+        <v-icon>mdi-heart</v-icon>
+      </v-btn>
+      <v-btn>
+        <span>Map</span>
+        <v-icon>mdi-map-marker</v-icon>
+      </v-btn>
+      <v-btn>
+        <span>Updates</span>
+        <v-icon>mdi-history</v-icon>
+      </v-btn>
+      <v-btn>
+        <span>Settings</span>
+        <v-icon>mdi-account</v-icon>
+      </v-btn>
+    </v-bottom-navigation>
   </v-app>
 </template>
 
