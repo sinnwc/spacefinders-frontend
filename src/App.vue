@@ -38,23 +38,23 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <router-view></router-view>
     </v-main>
     <v-bottom-navigation
       grow>
-      <v-btn>
+      <v-btn to="Home">
         <span>Dashboard</span>
         <v-icon>mdi-heart</v-icon>
       </v-btn>
-      <v-btn>
+      <v-btn to="map">
         <span>Map</span>
         <v-icon>mdi-map-marker</v-icon>
       </v-btn>
-      <v-btn>
+      <v-btn to="updates">
         <span>Updates</span>
         <v-icon>mdi-history</v-icon>
       </v-btn>
-      <v-btn>
+      <v-btn to="settings">
         <span>Settings</span>
         <v-icon>mdi-account</v-icon>
       </v-btn>
@@ -62,17 +62,16 @@
   </v-app>
 </template>
 <script>
-import HelloWorld from './components/HelloWorld'
 
 export default {
   name: 'App',
-
-  components: {
-    HelloWorld
-  },
 
   data: () => ({
     //
   })
 }
 </script>
+
+<style>
+
+</style>
