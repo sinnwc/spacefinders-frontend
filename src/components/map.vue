@@ -1,11 +1,10 @@
-<template>
-    <div>
-        map
-    </div>
-</template>
-
 <script>
+import { gmapsMap } from 'x5-gmaps'
 export default {
-  name: 'map'
+  components: { gmapsMap }
 }
 </script>
+
+<template>
+  <gmaps-map />
+</template>
