@@ -5,6 +5,7 @@ import router from './router'
 import store from './store'
 import vuetify from './plugins/vuetify'
 import x5GMaps from 'x5-gmaps'
+import ddForm from 'vue-dd-form'
 
 Vue.use(x5GMaps, { key: 'AIzaSyCJxvO_gnW8UdExMJfWMdF7uVY4Ho4VkHI', libraries: ['visualization'] })
 Vue.config.productionTip = false
@@ -14,5 +15,6 @@ new Vue({
   store,
   vuetify,
   x5GMaps,
+  ddForm,
   render: h => h(App)
 }).$mount('#app')
